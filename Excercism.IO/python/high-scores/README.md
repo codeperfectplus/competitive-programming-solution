@@ -1,30 +1,14 @@
-# Bank Account
+# High Scores
 
-Simulate a bank account supporting opening/closing, withdrawals, and deposits
-of money. Watch out for concurrent transactions!
+Manage a game player's High Score list.
 
-A bank account can be accessed in multiple ways. Clients can make
-deposits and withdrawals using the internet, mobile phones, etc. Shops
-can charge against the account.
+Your task is to build a high-score component of the classic Frogger game, one of the highest selling and addictive games of all time, and a classic of the arcade era. Your task is to write methods that return the highest score from the list, the last added score and the three highest scores.
 
-Create an account that can be accessed from multiple threads/processes
-(terminology depends on your programming language).
+In this exercise, you're going to use and manipulate lists. Python lists are very versatile, and you'll find yourself using them again and again in problems both simple and complex.
 
-It should be possible to close an account; operations against a closed
-account must fail.
-
-## Instructions
-
-Run the test file, and fix each of the errors in turn. When you get the
-first test to pass, go to the first pending or skipped test, and make
-that pass as well. When all of the tests are passing, feel free to
-submit.
-
-Remember that passing code is just the first step. The goal is to work
-towards a solution that is as readable and expressive as you can make
-it.
-
-Have fun!
+- [**Data Structures (Python 3 Documentation Tutorial)**](https://docs.python.org/3/tutorial/datastructures.html)
+- [**Lists and Tuples in Python (Real Python)**](https://realpython.com/python-lists-tuples/)
+- [**Python Lists (Google for Education)**](https://developers.google.com/edu/python/lists)
 
 
 ## Exception messages
@@ -43,10 +27,10 @@ raise Exception("Meaningful message indicating the source of the error")
 
 ## Running the tests
 
-To run the tests, run `pytest bank_account_test.py`
+To run the tests, run `pytest high_scores_test.py`
 
 Alternatively, you can tell Python to run the pytest module:
-`python -m pytest bank_account_test.py`
+`python -m pytest high_scores_test.py`
 
 ### Common `pytest` options
 
@@ -58,12 +42,16 @@ For other options, see `python -m pytest -h`
 
 ## Submitting Exercises
 
-Note that, when trying to submit an exercise, make sure the solution is in the `$EXERCISM_WORKSPACE/python/bank-account` directory.
+Note that, when trying to submit an exercise, make sure the solution is in the `$EXERCISM_WORKSPACE/python/high-scores` directory.
 
 You can find your Exercism workspace by running `exercism debug` and looking for the line that starts with `Workspace`.
 
 For more detailed information about running tests, code style and linting,
 please see [Running the Tests](http://exercism.io/tracks/python/tests).
+
+## Source
+
+Tribute to the eighties' arcade game Frogger
 
 ## Submitting Incomplete Solutions
 
