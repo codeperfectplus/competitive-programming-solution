@@ -11,6 +11,7 @@ def performOperations(N, op):
             s -= a[-1]
             s += i
             a.pop()
+            a.append(i)
         ans.append(s)
     return ans
 
