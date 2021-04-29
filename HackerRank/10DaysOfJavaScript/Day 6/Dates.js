@@ -4,6 +4,5 @@ function getDayName(dateString) {
     let dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     let date = new Date(dateString)
     dayName = date.getDay();
-    return dayNames[dayName];
-    
+    return dayNames[dayName];    
 }

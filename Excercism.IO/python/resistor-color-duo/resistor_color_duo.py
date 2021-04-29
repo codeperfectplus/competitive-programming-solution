@@ -12,7 +12,7 @@ expected = [
         ]
         
 def value(colors):
-    list = []
+    new_list = []
     for color in colors:
-        list.append(str(expected.index(color)))
-    return int(str(''.join(list))[:2])
+        new_list.append(str(expected.index(color)))
+    return int(str(''.join(new_list))[:2])
