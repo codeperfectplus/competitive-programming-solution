@@ -1,6 +1,7 @@
 # Pizza
 Practice problem for hash code.
 
+![Hashcode Logo](/hashCode/images/hash_code.png)
 
 ## Problem description
 
