@@ -15,12 +15,12 @@ def is_prime(num):
     return True
 
 
-p = 0
-for x in itertools.count(1):
-    if is_prime(x):
-        if p == 10001:
-            print("10001st prime is: ", x)
-            break
-        p += 1
-         
+def main(x):
+    p = 0
+    for x in itertools.count(1):
+        if is_prime(x):
+            if p == 10001:
+                return x
+            p += 1
+
 # Answer: 104743
