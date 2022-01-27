@@ -17,3 +17,5 @@ def sum_of_primes(num):
 
 def main(num):
     return sum([x for x in sum_of_primes(num)])
+
+# REVIEW: Need to be optimized.
