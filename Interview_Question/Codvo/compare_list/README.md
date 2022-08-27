@@ -1,9 +1,10 @@
 # Compare List
 
-# Compare two list if element of seconds list are square of element of first list.
+- Question asked by codvo.ai during the interview process
 
-# Example:
+Q. Compare two list if element of seconds list are square of element of first list.
 
+#### Example:
 
 ```python
 
