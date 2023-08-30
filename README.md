@@ -1,12 +1,13 @@
-# competitive-programming-solution
+# [Competitive Programming Solution](https://codeperfectplus.com/)
+<p>Managed By CodePerfectplus.com</p>
 
 ## Introduction
 
-Github repository for competitive programming solutions for python, Javascript and C++ for practice.
+GitHub repository for competitive programming solutions for Python, Javascript and C++ for practice.
 
 ## How to run tests
 
-for testing python files, use the pytest package.
+for testing Python files, use the pytest package.
 ```
 pytest
 ```
