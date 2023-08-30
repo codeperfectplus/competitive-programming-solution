@@ -1,5 +1,4 @@
 # [Competitive Programming Solution](https://codeperfectplus.com/)
-<p>Managed By CodePerfectplus.com</p>
 
 ## Introduction
 
